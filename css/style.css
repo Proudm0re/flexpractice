@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(36, 77, 151);
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+header {
+    background-color: rgb(182, 156, 209);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 70px;
+    
+}
+.kings1 {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.kings2 {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.page-layout {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    text-align: center;
+}
+
+.layout-eef {
+    flex: 1;
+}
+.layout-ash {
+    flex: 1;
+}
+.layout-alex {
+    flex: 1;
+}
+.layout-gaz {
+    flex: 1;
+}
+.layout-ryan {
+    flex: 1;
+}
